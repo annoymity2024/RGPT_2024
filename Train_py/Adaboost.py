@@ -83,9 +83,7 @@ y_true, pred_6 = get_column_elements(file6_path, y_true_index,  y_pred_index)
 pred_lebel=[]
 i=0
 w=[]
-#w = [0.075,0.1,0.125,0.175,0.225,0.25]
-#w = [0.13,0.16,0.16,0.16,0.19,0.20]
-#w = [0,0.125,0.175,0.2,0.225,0.275]
+
 for j in y_true:
     predict = w[0]*pred_1[i] + w[1]*pred_2[i]+w[2]*pred_3[i]+w[3]*pred_4[i]+w[4]*pred_5[i]+w[5]*pred_6[i]
     print(predict)
